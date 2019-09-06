@@ -1,0 +1,15 @@
+{
+  "name": "simple-fxcm",
+  "version": "1.0.0",
+  "scripts": {
+    "production": "NODE_ENV=production pm2 start app --name simple_fxcm",
+    "development": "NODE_ENV=development nodemon app"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
